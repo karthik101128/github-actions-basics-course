@@ -1,0 +1,12 @@
+name; Hello world
+
+on:
+  worlflow_dispatch:
+
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latets
+
+    steps:
+      - name: say hello
+        run: echo "Hello World"  
